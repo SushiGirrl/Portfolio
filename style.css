@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    background-color: midnightblue;
+}
+header {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    height: auto;
+    background-color: midnightblue;
+}
+.menu ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: larger;
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 280px;
+    margin-right: 280px;
+    margin-top: 100px;
+    color: aliceblue;
+}
+.picture {
+    display: flex;
+    margin-left: 50px;
+    width: auto;
+    height: 400px;
+}
+.experience {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: aliceblue;
+}
+.career {
+    text-align: center;
+    color: aliceblue;
+}
+.contact {
+    text-align: center;
+    color: aliceblue;
+}
+footer {
+    text-align: center;
+    margin-top: 1px;
+}
+.qoute {
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    font-style: oblique;
+}
